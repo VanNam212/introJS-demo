@@ -1,0 +1,32 @@
+
+.introjs-helperLayer {
+    box-shadow: #ffffff 0px 0px 1px 2px, rgb(70 69 69 / 50%) 0px 0px 0px 5000px !important;
+    border-radius: 5px !important;
+}
+
+.introjs-tooltip-title {
+    display: flex;
+    color: #115DD3;
+}
+
+.introjs-tooltip-title:before {
+    content: attr(data-before);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    background-color: #115DD3;
+    color: #FFFFFF;
+}
+
+/*.introjs-tooltip-header {*/
+/*padding-left: 0 !important;*/
+/*background-color: blue;*/
+/*}*/
+.introjs-tooltip-header {
+    background-color: #FFFFFF;
+}

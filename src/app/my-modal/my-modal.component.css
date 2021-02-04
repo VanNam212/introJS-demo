@@ -1,0 +1,36 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.model-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+.btn-cancel {
+  background-color: #FFFFFF;
+  border: 1px solid gray;
+  color: gray;
+}
+
+.btn-create {
+  background-color: #115DD3;
+  color: #FFFFFF;
+}
+
+.modal-body {
+  border-bottom: 1px solid lightgray;
+}
+
+.model-footer {
+  padding: 10px;
+}

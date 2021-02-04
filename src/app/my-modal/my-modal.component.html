@@ -1,0 +1,30 @@
+<div id="mymodal">
+  <div class="modal-header" id="modal-header">
+    <h4 class="modal-title pull-left" (click)="next()">Tạo dự án</h4>
+    <button type="button" class="close pull-right"
+            aria-label="Close" (click)="modalRef.hide()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <div class="row row-1">
+      <label>Tên dự án</label>
+      <input type="text" class="model-input" placeholder="Nhập tên dự án">
+    </div>
+    <div class="row row-2">
+      <label>Thời gian</label>
+      <input type="date" class="model-input" >
+    </div>
+    <div class="row row-3">
+      <label>Trưởng dự án</label>
+      <select>
+        <option>Lê Xuân Vinh</option>
+        <option>Nguyễn Trung Đức</option>
+      </select>
+    </div>
+  </div>
+  <div class="model-footer">
+    <button class="btn btn-cancel">Hủy</button>
+    <button class="btn btn-create">Tạo mới</button>
+  </div>
+</div>
